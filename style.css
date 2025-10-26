@@ -50,12 +50,12 @@ body {
 /* ===== SURAT ===== */
 .letter {
   display: none;
-  background: rgba(253, 246, 227, 0.45); /* 💡 lebih transparan (45%) */
+  background: rgba(253, 246, 227, 0.35); /* 🌫️ lebih transparan */
   background-image: repeating-linear-gradient(
     to bottom,
-    rgba(253, 246, 227, 0.45) 0px,
-    rgba(253, 246, 227, 0.45) 27px,
-    rgba(210, 210, 210, 0.2) 28px
+    rgba(253, 246, 227, 0.35) 0px,
+    rgba(253, 246, 227, 0.35) 27px,
+    rgba(210, 210, 210, 0.15) 28px
   );
   color: #2c2c2c;
   padding: 30px 30px 30px 70px;
@@ -72,7 +72,7 @@ body {
   overflow-wrap: break-word;
   font-family: "Courier New", monospace;
   margin-bottom: 60px;
-  backdrop-filter: blur(4px); /* 🌫️ efek kaca lebih halus */
+  backdrop-filter: blur(6px); /* ✨ efek kaca halus */
 }
 
 /* ===== LUBANG BINDER ===== */
