@@ -7,17 +7,17 @@
 /* ===== BODY ===== */
 body {
   font-family: "Georgia", serif;
-  background: url("IMG-20250703-WA0080.jpg") no-repeat center center fixed; /* ganti warna jadi foto */
+  background: url("bg.png") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh; /* ⬅️ biar bisa panjang */
-  overflow-y: auto; /* ⬅️ biar bisa di-scroll */
-  padding: 60px 20px;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
 }
+
 
 /* ===== TEKS INTRO ===== */
 .intro {
